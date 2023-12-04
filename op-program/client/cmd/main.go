@@ -5,8 +5,8 @@ import (
 
 	"github.com/ethereum/go-ethereum/log"
 
-	"github.com/ethereum-optimism/optimism/op-program/client"
-	oplog "github.com/ethereum-optimism/optimism/op-service/log"
+	"github.com/DougNorm/optimism/op-program/client"
+	oplog "github.com/DougNorm/optimism/op-service/log"
 )
 
 func main() {

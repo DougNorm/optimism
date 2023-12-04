@@ -259,7 +259,7 @@ root game are recursively resolved, we can resolve the root to countered due to 
 
 <!-- https://gist.github.com/clabby/e98bdd80ef3c038424f3372b70e34e08 -->
 <!-- markdownlint-disable no-inline-html -->
-<https://github.com/ethereum-optimism/optimism/assets/8406232/d2b708a0-539e-439d-96bd-c2f66f3a45f8>
+<https://github.com/DougNorm/optimism/assets/8406232/d2b708a0-539e-439d-96bd-c2f66f3a45f8>
 
 Another example is this game, which has a slightly different structure. Here, the root claim will also
 be countered due to `b0` remaining uncountered.
@@ -348,7 +348,7 @@ digraph G {
 
 <!-- markdownlint-disable no-inline-html -->
 <p align="center">
-<img src="https://github.com/ethereum-optimism/optimism/assets/8406232/9b20ba8d-0b64-47b3-9962-5533f7eb4ef7" width=60%>
+<img src="https://github.com/DougNorm/optimism/assets/8406232/9b20ba8d-0b64-47b3-9962-5533f7eb4ef7" width=60%>
 </p>
 
 Given these rules, players are motivated to move quickly to challenge all dishonest claims.

@@ -16,8 +16,8 @@ import (
 	"github.com/ethereum/go-ethereum/core/vm"
 	"github.com/ethereum/go-ethereum/params"
 
-	"github.com/ethereum-optimism/optimism/op-bindings/bindings"
-	"github.com/ethereum-optimism/optimism/op-chain-ops/srcmap"
+	"github.com/DougNorm/optimism/op-bindings/bindings"
+	"github.com/DougNorm/optimism/op-chain-ops/srcmap"
 )
 
 // LoadContracts loads the Cannon contracts, from op-bindings package

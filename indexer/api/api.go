@@ -16,11 +16,11 @@ import (
 
 	"github.com/ethereum/go-ethereum/log"
 
-	"github.com/ethereum-optimism/optimism/indexer/api/routes"
-	"github.com/ethereum-optimism/optimism/indexer/config"
-	"github.com/ethereum-optimism/optimism/indexer/database"
-	"github.com/ethereum-optimism/optimism/op-service/httputil"
-	"github.com/ethereum-optimism/optimism/op-service/metrics"
+	"github.com/DougNorm/optimism/indexer/api/routes"
+	"github.com/DougNorm/optimism/indexer/config"
+	"github.com/DougNorm/optimism/indexer/database"
+	"github.com/DougNorm/optimism/op-service/httputil"
+	"github.com/DougNorm/optimism/op-service/metrics"
 )
 
 const ethereumAddressRegex = `^0x[a-fA-F0-9]{40}$`

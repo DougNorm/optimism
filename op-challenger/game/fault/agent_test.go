@@ -5,17 +5,17 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/ethereum-optimism/optimism/op-challenger/game/fault/trace"
+	"github.com/DougNorm/optimism/op-challenger/game/fault/trace"
 	"github.com/stretchr/testify/require"
 
 	"github.com/ethereum/go-ethereum/log"
 
-	"github.com/ethereum-optimism/optimism/op-challenger/game/fault/test"
-	"github.com/ethereum-optimism/optimism/op-challenger/game/fault/trace/alphabet"
-	"github.com/ethereum-optimism/optimism/op-challenger/game/fault/types"
-	gameTypes "github.com/ethereum-optimism/optimism/op-challenger/game/types"
-	"github.com/ethereum-optimism/optimism/op-challenger/metrics"
-	"github.com/ethereum-optimism/optimism/op-service/testlog"
+	"github.com/DougNorm/optimism/op-challenger/game/fault/test"
+	"github.com/DougNorm/optimism/op-challenger/game/fault/trace/alphabet"
+	"github.com/DougNorm/optimism/op-challenger/game/fault/types"
+	gameTypes "github.com/DougNorm/optimism/op-challenger/game/types"
+	"github.com/DougNorm/optimism/op-challenger/metrics"
+	"github.com/DougNorm/optimism/op-service/testlog"
 )
 
 func TestDoNotMakeMovesWhenGameIsResolvable(t *testing.T) {

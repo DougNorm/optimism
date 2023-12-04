@@ -8,7 +8,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/ethereum-optimism/optimism/cannon/mipsevm"
+	"github.com/DougNorm/optimism/cannon/mipsevm"
 	"github.com/stretchr/testify/require"
 )
 

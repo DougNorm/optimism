@@ -7,9 +7,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/ethereum-optimism/optimism/indexer/config"
-	_ "github.com/ethereum-optimism/optimism/indexer/database/serializers"
-	"github.com/ethereum-optimism/optimism/op-service/retry"
+	"github.com/DougNorm/optimism/indexer/config"
+	_ "github.com/DougNorm/optimism/indexer/database/serializers"
+	"github.com/DougNorm/optimism/op-service/retry"
 
 	"github.com/pkg/errors"
 

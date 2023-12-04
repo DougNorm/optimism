@@ -3,8 +3,8 @@ package disputegame
 import (
 	"context"
 
-	"github.com/ethereum-optimism/optimism/op-e2e/e2eutils/challenger"
-	"github.com/ethereum-optimism/optimism/op-node/rollup"
+	"github.com/DougNorm/optimism/op-e2e/e2eutils/challenger"
+	"github.com/DougNorm/optimism/op-node/rollup"
 	"github.com/ethereum/go-ethereum/core"
 )
 

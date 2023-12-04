@@ -15,7 +15,7 @@ import (
 	"github.com/gorilla/websocket"
 
 	"github.com/BurntSushi/toml"
-	"github.com/ethereum-optimism/optimism/proxyd"
+	"github.com/DougNorm/optimism/proxyd"
 	"github.com/stretchr/testify/require"
 )
 

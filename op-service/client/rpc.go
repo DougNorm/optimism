@@ -8,13 +8,13 @@ import (
 	"regexp"
 	"time"
 
-	"github.com/ethereum-optimism/optimism/op-service/retry"
+	"github.com/DougNorm/optimism/op-service/retry"
 	"github.com/ethereum/go-ethereum"
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/prometheus/client_golang/prometheus"
 	"golang.org/x/time/rate"
 
-	"github.com/ethereum-optimism/optimism/op-node/metrics"
+	"github.com/DougNorm/optimism/op-node/metrics"
 	"github.com/ethereum/go-ethereum/rpc"
 )
 

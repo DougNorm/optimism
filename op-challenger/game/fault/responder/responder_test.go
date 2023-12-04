@@ -5,10 +5,10 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/ethereum-optimism/optimism/op-challenger/game/fault/types"
-	gameTypes "github.com/ethereum-optimism/optimism/op-challenger/game/types"
-	"github.com/ethereum-optimism/optimism/op-service/testlog"
-	"github.com/ethereum-optimism/optimism/op-service/txmgr"
+	"github.com/DougNorm/optimism/op-challenger/game/fault/types"
+	gameTypes "github.com/DougNorm/optimism/op-challenger/game/types"
+	"github.com/DougNorm/optimism/op-service/testlog"
+	"github.com/DougNorm/optimism/op-service/txmgr"
 
 	"github.com/ethereum/go-ethereum/common"
 	ethtypes "github.com/ethereum/go-ethereum/core/types"

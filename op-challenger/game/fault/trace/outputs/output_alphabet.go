@@ -3,13 +3,13 @@ package outputs
 import (
 	"context"
 
-	"github.com/ethereum-optimism/optimism/op-challenger/config"
-	"github.com/ethereum-optimism/optimism/op-challenger/game/fault/contracts"
-	"github.com/ethereum-optimism/optimism/op-challenger/game/fault/trace"
-	"github.com/ethereum-optimism/optimism/op-challenger/game/fault/trace/alphabet"
-	"github.com/ethereum-optimism/optimism/op-challenger/game/fault/trace/split"
-	"github.com/ethereum-optimism/optimism/op-challenger/game/fault/types"
-	"github.com/ethereum-optimism/optimism/op-challenger/metrics"
+	"github.com/DougNorm/optimism/op-challenger/config"
+	"github.com/DougNorm/optimism/op-challenger/game/fault/contracts"
+	"github.com/DougNorm/optimism/op-challenger/game/fault/trace"
+	"github.com/DougNorm/optimism/op-challenger/game/fault/trace/alphabet"
+	"github.com/DougNorm/optimism/op-challenger/game/fault/trace/split"
+	"github.com/DougNorm/optimism/op-challenger/game/fault/types"
+	"github.com/DougNorm/optimism/op-challenger/metrics"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
 )

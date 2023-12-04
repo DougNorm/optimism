@@ -10,8 +10,8 @@ import (
 	"os"
 	"path/filepath"
 
-	opservice "github.com/ethereum-optimism/optimism/op-service"
-	"github.com/ethereum-optimism/optimism/op-service/jsonutil"
+	opservice "github.com/DougNorm/optimism/op-service"
+	"github.com/DougNorm/optimism/op-service/jsonutil"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/core"

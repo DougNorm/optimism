@@ -13,7 +13,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/ethereum-optimism/optimism/op-e2e/external"
+	"github.com/DougNorm/optimism/op-e2e/external"
 	"github.com/onsi/gomega/gbytes"
 	"github.com/onsi/gomega/gexec"
 )

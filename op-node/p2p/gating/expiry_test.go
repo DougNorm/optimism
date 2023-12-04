@@ -5,12 +5,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum-optimism/optimism/op-node/p2p/store"
+	"github.com/DougNorm/optimism/op-node/p2p/store"
 
-	"github.com/ethereum-optimism/optimism/op-node/metrics"
-	"github.com/ethereum-optimism/optimism/op-node/p2p/gating/mocks"
-	"github.com/ethereum-optimism/optimism/op-service/clock"
-	"github.com/ethereum-optimism/optimism/op-service/testlog"
+	"github.com/DougNorm/optimism/op-node/metrics"
+	"github.com/DougNorm/optimism/op-node/p2p/gating/mocks"
+	"github.com/DougNorm/optimism/op-service/clock"
+	"github.com/DougNorm/optimism/op-service/testlog"
 	log "github.com/ethereum/go-ethereum/log"
 	"github.com/libp2p/go-libp2p/core/network"
 	"github.com/libp2p/go-libp2p/core/peer"

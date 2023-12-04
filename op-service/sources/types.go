@@ -14,7 +14,7 @@ import (
 	"github.com/ethereum/go-ethereum/rpc"
 	"github.com/ethereum/go-ethereum/trie"
 
-	"github.com/ethereum-optimism/optimism/op-service/eth"
+	"github.com/DougNorm/optimism/op-service/eth"
 )
 
 // Note: these types are used, instead of the geth types, to enable:

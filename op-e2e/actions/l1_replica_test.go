@@ -14,10 +14,10 @@ import (
 	"github.com/ethereum/go-ethereum/trie/triedb/hashdb"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ethereum-optimism/optimism/op-e2e/e2eutils"
-	"github.com/ethereum-optimism/optimism/op-service/eth"
-	"github.com/ethereum-optimism/optimism/op-service/sources"
-	"github.com/ethereum-optimism/optimism/op-service/testlog"
+	"github.com/DougNorm/optimism/op-e2e/e2eutils"
+	"github.com/DougNorm/optimism/op-service/eth"
+	"github.com/DougNorm/optimism/op-service/sources"
+	"github.com/DougNorm/optimism/op-service/testlog"
 )
 
 var defaultRollupTestParams = &e2eutils.TestParams{

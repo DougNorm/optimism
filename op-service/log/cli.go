@@ -11,8 +11,8 @@ import (
 
 	"github.com/ethereum/go-ethereum/log"
 
-	opservice "github.com/ethereum-optimism/optimism/op-service"
-	"github.com/ethereum-optimism/optimism/op-service/cliapp"
+	opservice "github.com/DougNorm/optimism/op-service"
+	"github.com/DougNorm/optimism/op-service/cliapp"
 )
 
 const (

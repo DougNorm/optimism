@@ -4,8 +4,8 @@ import (
 	"context"
 	"math"
 
-	"github.com/ethereum-optimism/optimism/op-service/eth"
-	"github.com/ethereum-optimism/optimism/op-service/retry"
+	"github.com/DougNorm/optimism/op-service/eth"
+	"github.com/DougNorm/optimism/op-service/retry"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/log"

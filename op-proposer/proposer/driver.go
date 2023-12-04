@@ -16,10 +16,10 @@ import (
 	"github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/log"
 
-	"github.com/ethereum-optimism/optimism/op-bindings/bindings"
-	"github.com/ethereum-optimism/optimism/op-proposer/metrics"
-	"github.com/ethereum-optimism/optimism/op-service/eth"
-	"github.com/ethereum-optimism/optimism/op-service/txmgr"
+	"github.com/DougNorm/optimism/op-bindings/bindings"
+	"github.com/DougNorm/optimism/op-proposer/metrics"
+	"github.com/DougNorm/optimism/op-service/eth"
+	"github.com/DougNorm/optimism/op-service/txmgr"
 )
 
 var supportedL2OutputVersion = eth.Bytes32{}

@@ -14,11 +14,11 @@ import (
 	"github.com/ethereum/go-ethereum/params"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ethereum-optimism/optimism/op-e2e/e2eutils"
-	"github.com/ethereum-optimism/optimism/op-node/rollup/derive"
-	"github.com/ethereum-optimism/optimism/op-node/rollup/sync"
-	"github.com/ethereum-optimism/optimism/op-service/eth"
-	"github.com/ethereum-optimism/optimism/op-service/testlog"
+	"github.com/DougNorm/optimism/op-e2e/e2eutils"
+	"github.com/DougNorm/optimism/op-node/rollup/derive"
+	"github.com/DougNorm/optimism/op-node/rollup/sync"
+	"github.com/DougNorm/optimism/op-service/eth"
+	"github.com/DougNorm/optimism/op-service/testlog"
 )
 
 // TestL2BatcherBatchType run each batcher-related test case in singular batch mode and span batch mode.

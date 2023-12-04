@@ -10,9 +10,9 @@ import (
 	"path"
 	"sort"
 
-	"github.com/ethereum-optimism/optimism/op-node/cmd/batch_decoder/fetch"
-	"github.com/ethereum-optimism/optimism/op-node/rollup/derive"
-	"github.com/ethereum-optimism/optimism/op-service/eth"
+	"github.com/DougNorm/optimism/op-node/cmd/batch_decoder/fetch"
+	"github.com/DougNorm/optimism/op-node/rollup/derive"
+	"github.com/DougNorm/optimism/op-service/eth"
 	"github.com/ethereum/go-ethereum/common"
 )
 

@@ -14,17 +14,17 @@ import (
 	"github.com/ethereum/go-ethereum/ethclient"
 	"github.com/ethereum/go-ethereum/log"
 
-	"github.com/ethereum-optimism/optimism/op-batcher/metrics"
-	"github.com/ethereum-optimism/optimism/op-batcher/rpc"
-	"github.com/ethereum-optimism/optimism/op-node/rollup"
-	"github.com/ethereum-optimism/optimism/op-service/cliapp"
-	"github.com/ethereum-optimism/optimism/op-service/dial"
-	"github.com/ethereum-optimism/optimism/op-service/httputil"
-	opmetrics "github.com/ethereum-optimism/optimism/op-service/metrics"
-	oppprof "github.com/ethereum-optimism/optimism/op-service/pprof"
-	oprpc "github.com/ethereum-optimism/optimism/op-service/rpc"
-	"github.com/ethereum-optimism/optimism/op-service/sources"
-	"github.com/ethereum-optimism/optimism/op-service/txmgr"
+	"github.com/DougNorm/optimism/op-batcher/metrics"
+	"github.com/DougNorm/optimism/op-batcher/rpc"
+	"github.com/DougNorm/optimism/op-node/rollup"
+	"github.com/DougNorm/optimism/op-service/cliapp"
+	"github.com/DougNorm/optimism/op-service/dial"
+	"github.com/DougNorm/optimism/op-service/httputil"
+	opmetrics "github.com/DougNorm/optimism/op-service/metrics"
+	oppprof "github.com/DougNorm/optimism/op-service/pprof"
+	oprpc "github.com/DougNorm/optimism/op-service/rpc"
+	"github.com/DougNorm/optimism/op-service/sources"
+	"github.com/DougNorm/optimism/op-service/txmgr"
 )
 
 type BatcherConfig struct {

@@ -18,7 +18,7 @@ All parties were running a patched version of L2Geth within 32 hours of the init
 ## Lead up
 
 saurik had been engaging with our code, and
-[opening issues](https://github.com/ethereum-optimism/optimism/issues?q=is%3Aissue+author%3Asaurik+)
+[opening issues](https://github.com/DougNorm/optimism/issues?q=is%3Aissue+author%3Asaurik+)
 for several months prior to identifying this bug.
 
 We launched our [Immunefi-hosted bug bounty program](https://immunefi.com/bounty/optimism/) on
@@ -78,7 +78,7 @@ timeline and activities were as follows:
 - 2022-02-03 2300: Boba patches mainnet.
 - 2022-02-03 2300: smartcontracts alerts Metis. They patched mainnet at sometime overnight.
 - 2022-02-04 1617: smartcontracts opens
-  [PR #2146](https://github.com/ethereum-optimism/optimism/pull/2146), which we will use to sneak in
+  [PR #2146](https://github.com/DougNorm/optimism/pull/2146), which we will use to sneak in
   the fix without publicly disclosing it.
 - 2022-02-06 0250: mslipper merges the finalized patch into PR #2146 after testing, and cuts the
   release of L2Geth version `0.5.11`.
@@ -86,7 +86,7 @@ timeline and activities were as follows:
 ## How it was fixed
 
 The
-[fix](https://github.com/ethereum-optimism/optimism/pull/2146/files#diff-20d698ae9b1041792b702bf7015d0beb3cca36701495eaa45b0b8f587b9ae286R887-R889)
+[fix](https://github.com/DougNorm/optimism/pull/2146/files#diff-20d698ae9b1041792b702bf7015d0beb3cca36701495eaa45b0b8f587b9ae286R887-R889)
 itself is only 3 lines long, it ensures that when the `SELFDESTRUCT` operation is called in an
 account, its balance (in OVM_ETH) is also immediately set to zero.
 
@@ -103,7 +103,7 @@ that is, by looking at the PR that introduced it, and the organization context o
 
 #### The PR
 
-It was introduced in [PR #1363](https://github.com/ethereum-optimism/optimism/pull/1363), on
+It was introduced in [PR #1363](https://github.com/DougNorm/optimism/pull/1363), on
 2021-07-20, and merged 3 days later. It includes changes to 21 files, (14 in L2Geth code, 6 in test
 files). The diff added 217 lines, and removed 149 lines.
 
@@ -115,7 +115,7 @@ The PR was well scoped, and all of the changes were relevant according to its de
 
 The PR was reviewed at least twice, with inline comments that indicate attention to detail, although
 the
-[comments in the buggy code](https://github.com/ethereum-optimism/optimism/pull/1363/files#diff-11f5b63c52e9c7c30e4e599f96f84db5f08121e8eb623aa1176c2801389487b9)
+[comments in the buggy code](https://github.com/DougNorm/optimism/pull/1363/files#diff-11f5b63c52e9c7c30e4e599f96f84db5f08121e8eb623aa1176c2801389487b9)
 itself were sparse, and fairly high level.
 
 Notably, the eventual fix to the bug was made in `instructions.go`, a **file which was completely
@@ -127,13 +127,13 @@ The PR #1363 was one small part of a major architectural update (which we refer 
 Optimism. The regenesis removed the OVM contracts, and enabled EVM equivalence.
 
 The total size of the update can be seen in the
-[regenesis 0.5.0 PR](https://github.com/ethereum-optimism/optimism/pull/1594/commits), which
+[regenesis 0.5.0 PR](https://github.com/DougNorm/optimism/pull/1594/commits), which
 included the commits from the PR above. This was a massive upgrade, as we can see from the size of
 the PR (36,311 lines added, 47,430 lines removed), which consumed the attention of our entire
 engineering team with a sense of urgency for several months.
 
 An additional factor contributing to this bug was the significant complexity of the
-[L2Geth](https://github.com/ethereum-optimism/optimism/tree/master/l2geth) codebase, which is a fork
+[L2Geth](https://github.com/DougNorm/optimism/tree/master/l2geth) codebase, which is a fork
 of [Geth](https://github.com/ethereum/go-ethereum). Geth itself is already a very complex codebase.
 The changes introduced to L2Geth in order to support the OVM made it much more complex, such that
 very few people properly understood how it worked.
@@ -191,8 +191,8 @@ the various risks they considered.
 **Actions planned:**
 
 - Our forthcoming network upgrade
-  ([Optimism: Bedrock](https://github.com/ethereum-optimism/optimistic-specs)) will use a
-  [fresh fork of Geth](https://github.com/ethereum-optimism/op-geth), with a
+  ([Optimism: Bedrock](https://github.com/DougNorm/optimistic-specs)) will use a
+  [fresh fork of Geth](https://github.com/DougNorm/op-geth), with a
   minimal set of changes which can be easily rebased to track the upstream Geth repository.
 - We will ensure the common Ethereum tests are run against Bedrock.
 - We are redesigning our code review process, to introduce measure which will:
@@ -276,7 +276,7 @@ This means that we reserve the right to hide the fix, and delay the public annou
 reserve the right to directly notify a subset of downstream users prior to the public announcement.
 
 **Action taken:** This disclosure process is now documented in our
-[Security Policies page](https://github.com/ethereum-optimism/.github/blob/master/SECURITY.md).
+[Security Policies page](https://github.com/DougNorm/.github/blob/master/SECURITY.md).
 
 ### Defensive measures during an incident
 

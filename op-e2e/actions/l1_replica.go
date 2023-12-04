@@ -16,10 +16,10 @@ import (
 	"github.com/ethereum/go-ethereum/p2p"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ethereum-optimism/optimism/op-node/rollup"
-	"github.com/ethereum-optimism/optimism/op-service/client"
-	"github.com/ethereum-optimism/optimism/op-service/sources"
-	"github.com/ethereum-optimism/optimism/op-service/testutils"
+	"github.com/DougNorm/optimism/op-node/rollup"
+	"github.com/DougNorm/optimism/op-service/client"
+	"github.com/DougNorm/optimism/op-service/sources"
+	"github.com/DougNorm/optimism/op-service/testutils"
 )
 
 // L1CanonSrc is used to sync L1 from another node.

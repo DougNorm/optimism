@@ -7,13 +7,13 @@ import (
 
 	"github.com/ethereum/go-ethereum/params"
 
-	"github.com/ethereum-optimism/optimism/indexer"
-	"github.com/ethereum-optimism/optimism/indexer/api"
-	"github.com/ethereum-optimism/optimism/indexer/config"
-	"github.com/ethereum-optimism/optimism/indexer/database"
-	"github.com/ethereum-optimism/optimism/op-service/cliapp"
-	oplog "github.com/ethereum-optimism/optimism/op-service/log"
-	"github.com/ethereum-optimism/optimism/op-service/opio"
+	"github.com/DougNorm/optimism/indexer"
+	"github.com/DougNorm/optimism/indexer/api"
+	"github.com/DougNorm/optimism/indexer/config"
+	"github.com/DougNorm/optimism/indexer/database"
+	"github.com/DougNorm/optimism/op-service/cliapp"
+	oplog "github.com/DougNorm/optimism/op-service/log"
+	"github.com/DougNorm/optimism/op-service/opio"
 )
 
 var (

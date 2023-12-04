@@ -10,12 +10,12 @@ import (
 
 	"github.com/ethereum/go-ethereum/log"
 
-	"github.com/ethereum-optimism/optimism/indexer/bigint"
-	"github.com/ethereum-optimism/optimism/indexer/config"
-	"github.com/ethereum-optimism/optimism/indexer/database"
-	"github.com/ethereum-optimism/optimism/indexer/etl"
-	"github.com/ethereum-optimism/optimism/indexer/processors/bridge"
-	"github.com/ethereum-optimism/optimism/op-service/tasks"
+	"github.com/DougNorm/optimism/indexer/bigint"
+	"github.com/DougNorm/optimism/indexer/config"
+	"github.com/DougNorm/optimism/indexer/database"
+	"github.com/DougNorm/optimism/indexer/etl"
+	"github.com/DougNorm/optimism/indexer/processors/bridge"
+	"github.com/DougNorm/optimism/op-service/tasks"
 )
 
 var blocksLimit = 10_000

@@ -5,11 +5,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethereum-optimism/optimism/op-node/chaincfg"
-	"github.com/ethereum-optimism/optimism/op-node/rollup/sync"
-	openum "github.com/ethereum-optimism/optimism/op-service/enum"
-	oplog "github.com/ethereum-optimism/optimism/op-service/log"
-	"github.com/ethereum-optimism/optimism/op-service/sources"
+	"github.com/DougNorm/optimism/op-node/chaincfg"
+	"github.com/DougNorm/optimism/op-node/rollup/sync"
+	openum "github.com/DougNorm/optimism/op-service/enum"
+	oplog "github.com/DougNorm/optimism/op-service/log"
+	"github.com/DougNorm/optimism/op-service/sources"
 
 	"github.com/urfave/cli/v2"
 )

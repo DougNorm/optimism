@@ -5,9 +5,9 @@ import (
 	"errors"
 	"fmt"
 
-	opnode "github.com/ethereum-optimism/optimism/op-node"
-	"github.com/ethereum-optimism/optimism/op-node/flags"
-	oplog "github.com/ethereum-optimism/optimism/op-service/log"
+	opnode "github.com/DougNorm/optimism/op-node"
+	"github.com/DougNorm/optimism/op-node/flags"
+	oplog "github.com/DougNorm/optimism/op-service/log"
 	"github.com/urfave/cli/v2"
 )
 

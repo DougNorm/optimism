@@ -1,7 +1,7 @@
 package routes
 
 import (
-	"github.com/ethereum-optimism/optimism/indexer/database"
+	"github.com/DougNorm/optimism/indexer/database"
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/go-chi/chi/v5"
 )

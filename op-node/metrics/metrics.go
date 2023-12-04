@@ -9,9 +9,9 @@ import (
 
 	"github.com/ethereum/go-ethereum/params"
 
-	"github.com/ethereum-optimism/optimism/op-node/p2p/store"
-	ophttp "github.com/ethereum-optimism/optimism/op-service/httputil"
-	"github.com/ethereum-optimism/optimism/op-service/metrics"
+	"github.com/DougNorm/optimism/op-node/p2p/store"
+	ophttp "github.com/DougNorm/optimism/op-service/httputil"
+	"github.com/DougNorm/optimism/op-service/metrics"
 
 	pb "github.com/libp2p/go-libp2p-pubsub/pb"
 	libp2pmetrics "github.com/libp2p/go-libp2p/core/metrics"
@@ -21,7 +21,7 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 
-	"github.com/ethereum-optimism/optimism/op-service/eth"
+	"github.com/DougNorm/optimism/op-service/eth"
 )
 
 const (

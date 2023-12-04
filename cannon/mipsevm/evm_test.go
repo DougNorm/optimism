@@ -13,8 +13,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum-optimism/optimism/op-bindings/bindings"
-	preimage "github.com/ethereum-optimism/optimism/op-preimage"
+	"github.com/DougNorm/optimism/op-bindings/bindings"
+	preimage "github.com/DougNorm/optimism/op-preimage"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/core/state"
@@ -22,7 +22,7 @@ import (
 	"github.com/ethereum/go-ethereum/eth/tracers/logger"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ethereum-optimism/optimism/op-chain-ops/srcmap"
+	"github.com/DougNorm/optimism/op-chain-ops/srcmap"
 )
 
 func testContractsSetup(t require.TestingT) (*Contracts, *Addresses) {

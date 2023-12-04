@@ -87,14 +87,14 @@ but use custom configurations will be assessed on a case by case basis, and thei
 See our bounty program on [Immunefi][immunefi] for information regarding reward sizes.
 
 <!-- LINKS -->
-[cannon]: https://github.com/ethereum-optimism/optimism/tree/develop/cannon
-[cannon-vm-specs]: https://github.com/ethereum-optimism/optimism/blob/develop/specs/cannon-fault-proof-vm.md
-[dispute-game]: https://github.com/ethereum-optimism/optimism/tree/develop/packages/contracts-bedrock/src/dispute
-[fault-dispute-specs]: https://github.com/ethereum-optimism/optimism/blob/develop/specs/fault-dispute-game.md
-[cannon-contracts]: https://github.com/ethereum-optimism/optimism/tree/develop/packages/contracts-bedrock/src/cannon
-[op-program]: https://github.com/ethereum-optimism/optimism/tree/develop/op-program
-[op-challenger]: https://github.com/ethereum-optimism/optimism/tree/develop/op-challenger
-[alphabet-vm]: https://github.com/ethereum-optimism/optimism/blob/c1cbacef0097c28f999e3655200e6bd0d4dba9f2/packages/contracts-bedrock/test/FaultDisputeGame.t.sol#L977-L1005
-[fault-proof-specs]: https://github.com/ethereum-optimism/optimism/blob/develop/specs/fault-proof.md
+[cannon]: https://github.com/DougNorm/optimism/tree/develop/cannon
+[cannon-vm-specs]: https://github.com/DougNorm/optimism/blob/develop/specs/cannon-fault-proof-vm.md
+[dispute-game]: https://github.com/DougNorm/optimism/tree/develop/packages/contracts-bedrock/src/dispute
+[fault-dispute-specs]: https://github.com/DougNorm/optimism/blob/develop/specs/fault-dispute-game.md
+[cannon-contracts]: https://github.com/DougNorm/optimism/tree/develop/packages/contracts-bedrock/src/cannon
+[op-program]: https://github.com/DougNorm/optimism/tree/develop/op-program
+[op-challenger]: https://github.com/DougNorm/optimism/tree/develop/op-challenger
+[alphabet-vm]: https://github.com/DougNorm/optimism/blob/c1cbacef0097c28f999e3655200e6bd0d4dba9f2/packages/contracts-bedrock/test/FaultDisputeGame.t.sol#L977-L1005
+[fault-proof-specs]: https://github.com/DougNorm/optimism/blob/develop/specs/fault-proof.md
 [immunefi]: https://immunefi.com/bounty/optimism/
-[invalid-proposal-doc]: https://github.com/ethereum-optimism/optimism/blob/develop/docs/fault-proof-alpha/invalid-proposals.md
+[invalid-proposal-doc]: https://github.com/DougNorm/optimism/blob/develop/docs/fault-proof-alpha/invalid-proposals.md

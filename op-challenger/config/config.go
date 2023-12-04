@@ -9,10 +9,10 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 
-	"github.com/ethereum-optimism/optimism/op-node/chaincfg"
-	opmetrics "github.com/ethereum-optimism/optimism/op-service/metrics"
-	oppprof "github.com/ethereum-optimism/optimism/op-service/pprof"
-	"github.com/ethereum-optimism/optimism/op-service/txmgr"
+	"github.com/DougNorm/optimism/op-node/chaincfg"
+	opmetrics "github.com/DougNorm/optimism/op-service/metrics"
+	oppprof "github.com/DougNorm/optimism/op-service/pprof"
+	"github.com/DougNorm/optimism/op-service/txmgr"
 )
 
 var (

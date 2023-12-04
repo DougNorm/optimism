@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum-optimism/optimism/op-bindings/bindings"
-	"github.com/ethereum-optimism/optimism/op-challenger/game/fault/types"
-	"github.com/ethereum-optimism/optimism/op-e2e/e2eutils/wait"
+	"github.com/DougNorm/optimism/op-bindings/bindings"
+	"github.com/DougNorm/optimism/op-challenger/game/fault/types"
+	"github.com/DougNorm/optimism/op-e2e/e2eutils/wait"
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
 	"github.com/ethereum/go-ethereum/common"
 	gethtypes "github.com/ethereum/go-ethereum/core/types"

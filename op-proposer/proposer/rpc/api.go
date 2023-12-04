@@ -6,8 +6,8 @@ import (
 	"github.com/ethereum/go-ethereum/log"
 	gethrpc "github.com/ethereum/go-ethereum/rpc"
 
-	"github.com/ethereum-optimism/optimism/op-service/metrics"
-	"github.com/ethereum-optimism/optimism/op-service/rpc"
+	"github.com/DougNorm/optimism/op-service/metrics"
+	"github.com/DougNorm/optimism/op-service/rpc"
 )
 
 type ProposerDriver interface {

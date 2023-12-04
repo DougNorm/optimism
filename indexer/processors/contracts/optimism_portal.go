@@ -4,10 +4,10 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/ethereum-optimism/optimism/indexer/bigint"
-	"github.com/ethereum-optimism/optimism/indexer/database"
-	"github.com/ethereum-optimism/optimism/op-bindings/bindings"
-	"github.com/ethereum-optimism/optimism/op-node/rollup/derive"
+	"github.com/DougNorm/optimism/indexer/bigint"
+	"github.com/DougNorm/optimism/indexer/database"
+	"github.com/DougNorm/optimism/op-bindings/bindings"
+	"github.com/DougNorm/optimism/op-node/rollup/derive"
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/types"

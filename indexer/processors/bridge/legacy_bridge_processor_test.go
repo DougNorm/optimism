@@ -3,10 +3,10 @@ package bridge
 import (
 	"testing"
 
-	"github.com/ethereum-optimism/optimism/indexer/bigint"
-	"github.com/ethereum-optimism/optimism/indexer/database"
-	"github.com/ethereum-optimism/optimism/indexer/processors/contracts"
-	"github.com/ethereum-optimism/optimism/op-bindings/bindings"
+	"github.com/DougNorm/optimism/indexer/bigint"
+	"github.com/DougNorm/optimism/indexer/database"
+	"github.com/DougNorm/optimism/indexer/processors/contracts"
+	"github.com/DougNorm/optimism/op-bindings/bindings"
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/types"

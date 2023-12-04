@@ -17,13 +17,13 @@ import (
 	"github.com/ethereum/go-ethereum/core"
 	"github.com/ethereum/go-ethereum/log"
 
-	challenger "github.com/ethereum-optimism/optimism/op-challenger"
-	"github.com/ethereum-optimism/optimism/op-challenger/config"
-	"github.com/ethereum-optimism/optimism/op-e2e/e2eutils"
-	"github.com/ethereum-optimism/optimism/op-e2e/e2eutils/wait"
-	"github.com/ethereum-optimism/optimism/op-node/rollup"
-	"github.com/ethereum-optimism/optimism/op-service/cliapp"
-	"github.com/ethereum-optimism/optimism/op-service/testlog"
+	challenger "github.com/DougNorm/optimism/op-challenger"
+	"github.com/DougNorm/optimism/op-challenger/config"
+	"github.com/DougNorm/optimism/op-e2e/e2eutils"
+	"github.com/DougNorm/optimism/op-e2e/e2eutils/wait"
+	"github.com/DougNorm/optimism/op-node/rollup"
+	"github.com/DougNorm/optimism/op-service/cliapp"
+	"github.com/DougNorm/optimism/op-service/testlog"
 )
 
 type Helper struct {

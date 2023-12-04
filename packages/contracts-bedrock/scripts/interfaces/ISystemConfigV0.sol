@@ -6,7 +6,7 @@ import { ResourceMetering } from "src/L1/ResourceMetering.sol";
 /// @title ISystemConfigV0
 /// @notice Minimal interface of the Legacy SystemConfig containing only getters.
 ///         Based on
-/// https://github.com/ethereum-optimism/optimism/blob/f54a2234f2f350795552011f35f704a3feb56a08/packages/contracts-bedrock/src/L1/SystemConfig.sol
+/// https://github.com/DougNorm/optimism/blob/f54a2234f2f350795552011f35f704a3feb56a08/packages/contracts-bedrock/src/L1/SystemConfig.sol
 interface ISystemConfigV0 {
     function owner() external view returns (address);
     function VERSION() external view returns (uint256);

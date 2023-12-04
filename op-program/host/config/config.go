@@ -6,12 +6,12 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ethereum-optimism/optimism/op-node/chaincfg"
+	"github.com/DougNorm/optimism/op-node/chaincfg"
 
-	opnode "github.com/ethereum-optimism/optimism/op-node"
-	"github.com/ethereum-optimism/optimism/op-node/rollup"
-	"github.com/ethereum-optimism/optimism/op-program/host/flags"
-	"github.com/ethereum-optimism/optimism/op-service/sources"
+	opnode "github.com/DougNorm/optimism/op-node"
+	"github.com/DougNorm/optimism/op-node/rollup"
+	"github.com/DougNorm/optimism/op-program/host/flags"
+	"github.com/DougNorm/optimism/op-service/sources"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core"
 	"github.com/ethereum/go-ethereum/log"

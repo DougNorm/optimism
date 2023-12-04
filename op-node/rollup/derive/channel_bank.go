@@ -8,8 +8,8 @@ import (
 	"github.com/ethereum/go-ethereum/log"
 	"golang.org/x/exp/slices"
 
-	"github.com/ethereum-optimism/optimism/op-node/rollup"
-	"github.com/ethereum-optimism/optimism/op-service/eth"
+	"github.com/DougNorm/optimism/op-node/rollup"
+	"github.com/DougNorm/optimism/op-service/eth"
 )
 
 type NextFrameProvider interface {

@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum-optimism/optimism/op-challenger/game/fault/types"
-	gameTypes "github.com/ethereum-optimism/optimism/op-challenger/game/types"
-	"github.com/ethereum-optimism/optimism/op-service/sources/batching"
-	"github.com/ethereum-optimism/optimism/op-service/txmgr"
+	"github.com/DougNorm/optimism/op-challenger/game/fault/types"
+	gameTypes "github.com/DougNorm/optimism/op-challenger/game/types"
+	"github.com/DougNorm/optimism/op-service/sources/batching"
+	"github.com/DougNorm/optimism/op-service/txmgr"
 	"github.com/ethereum/go-ethereum/common"
 )
 

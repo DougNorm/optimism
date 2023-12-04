@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	e2e "github.com/ethereum-optimism/optimism/op-e2e"
-	"github.com/ethereum-optimism/optimism/op-e2e/config"
+	e2e "github.com/DougNorm/optimism/op-e2e"
+	"github.com/DougNorm/optimism/op-e2e/config"
 	"github.com/stretchr/testify/require"
 )
 

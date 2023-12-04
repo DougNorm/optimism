@@ -11,12 +11,12 @@ import (
 	"github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/log"
 
-	"github.com/ethereum-optimism/optimism/indexer/bigint"
-	"github.com/ethereum-optimism/optimism/indexer/config"
-	"github.com/ethereum-optimism/optimism/indexer/database"
-	"github.com/ethereum-optimism/optimism/indexer/node"
-	"github.com/ethereum-optimism/optimism/op-service/metrics"
-	"github.com/ethereum-optimism/optimism/op-service/testlog"
+	"github.com/DougNorm/optimism/indexer/bigint"
+	"github.com/DougNorm/optimism/indexer/config"
+	"github.com/DougNorm/optimism/indexer/database"
+	"github.com/DougNorm/optimism/indexer/node"
+	"github.com/DougNorm/optimism/op-service/metrics"
+	"github.com/DougNorm/optimism/op-service/testlog"
 )
 
 func TestL1ETLConstruction(t *testing.T) {

@@ -7,12 +7,12 @@ import (
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ethereum-optimism/optimism/op-node/metrics"
-	"github.com/ethereum-optimism/optimism/op-node/rollup"
-	"github.com/ethereum-optimism/optimism/op-node/rollup/derive"
-	"github.com/ethereum-optimism/optimism/op-node/rollup/driver"
-	"github.com/ethereum-optimism/optimism/op-node/rollup/sync"
-	"github.com/ethereum-optimism/optimism/op-service/eth"
+	"github.com/DougNorm/optimism/op-node/metrics"
+	"github.com/DougNorm/optimism/op-node/rollup"
+	"github.com/DougNorm/optimism/op-node/rollup/derive"
+	"github.com/DougNorm/optimism/op-node/rollup/driver"
+	"github.com/DougNorm/optimism/op-node/rollup/sync"
+	"github.com/DougNorm/optimism/op-service/eth"
 )
 
 // MockL1OriginSelector is a shim to override the origin as sequencer, so we can force it to stay on an older origin.

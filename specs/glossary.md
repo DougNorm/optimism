@@ -801,5 +801,5 @@ In these specifications, "execution engine" always refer to the L2 execution eng
 [merge]: https://ethereum.org/en/eth2/merge/
 [mempool]: https://www.quicknode.com/guides/defi/how-to-access-ethereum-mempool
 [L1 consensus layer]: https://github.com/ethereum/consensus-specs/#readme
-[cannon]: https://github.com/ethereum-optimism/cannon
+[cannon]: https://github.com/DougNorm/cannon
 [eip4844]: https://www.eip4844.com/

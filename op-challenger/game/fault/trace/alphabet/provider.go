@@ -7,8 +7,8 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/ethereum-optimism/optimism/cannon/mipsevm"
-	"github.com/ethereum-optimism/optimism/op-challenger/game/fault/types"
+	"github.com/DougNorm/optimism/cannon/mipsevm"
+	"github.com/DougNorm/optimism/op-challenger/game/fault/types"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 )

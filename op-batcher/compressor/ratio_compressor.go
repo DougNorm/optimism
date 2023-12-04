@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"compress/zlib"
 
-	"github.com/ethereum-optimism/optimism/op-node/rollup/derive"
+	"github.com/DougNorm/optimism/op-node/rollup/derive"
 )
 
 type RatioCompressor struct {

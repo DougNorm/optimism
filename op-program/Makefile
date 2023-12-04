@@ -4,8 +4,8 @@ VERSION := v0.0.0
 
 LDFLAGSSTRING +=-X main.GitCommit=$(GITCOMMIT)
 LDFLAGSSTRING +=-X main.GitDate=$(GITDATE)
-LDFLAGSSTRING +=-X github.com/ethereum-optimism/optimism/op-program/version.Version=$(VERSION)
-LDFLAGSSTRING +=-X github.com/ethereum-optimism/optimism/op-program/version.Meta=$(VERSION_META)
+LDFLAGSSTRING +=-X github.com/DougNorm/optimism/op-program/version.Version=$(VERSION)
+LDFLAGSSTRING +=-X github.com/DougNorm/optimism/op-program/version.Meta=$(VERSION_META)
 LDFLAGS := -ldflags "$(LDFLAGSSTRING)"
 
 COMPAT_DIR := temp/compat
@@ -44,7 +44,7 @@ capture-chain-test-data: capture-goerli-verify
 
 run-goerli-verify: op-program-host op-program-client
 	mkdir -p "$(COMPAT_DIR)"
-	curl -L -o "$(COMPAT_DIR)/goerli.tar.bz" https://github.com/ethereum-optimism/chain-test-data/releases/download/2023-10-11/goerli.tar.bz
+	curl -L -o "$(COMPAT_DIR)/goerli.tar.bz" https://github.com/DougNorm/chain-test-data/releases/download/2023-10-11/goerli.tar.bz
 	tar jxf "$(COMPAT_DIR)/goerli.tar.bz" -C "$(COMPAT_DIR)"
 	./bin/op-program `cat "$(COMPAT_DIR)/goerli/args.txt"`
 

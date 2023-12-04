@@ -8,15 +8,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum-optimism/optimism/op-node/rollup"
+	"github.com/DougNorm/optimism/op-node/rollup"
 
 	//nolint:all
 	"github.com/libp2p/go-libp2p/p2p/host/peerstore/pstoreds"
 
-	p2pMocks "github.com/ethereum-optimism/optimism/op-node/p2p/mocks"
-	"github.com/ethereum-optimism/optimism/op-node/p2p/store"
-	"github.com/ethereum-optimism/optimism/op-service/clock"
-	testlog "github.com/ethereum-optimism/optimism/op-service/testlog"
+	p2pMocks "github.com/DougNorm/optimism/op-node/p2p/mocks"
+	"github.com/DougNorm/optimism/op-node/p2p/store"
+	"github.com/DougNorm/optimism/op-service/clock"
+	testlog "github.com/DougNorm/optimism/op-service/testlog"
 	log "github.com/ethereum/go-ethereum/log"
 	ds "github.com/ipfs/go-datastore"
 	"github.com/ipfs/go-datastore/sync"

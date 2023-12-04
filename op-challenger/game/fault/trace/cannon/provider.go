@@ -8,14 +8,14 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/ethereum-optimism/optimism/op-challenger/config"
-	"github.com/ethereum-optimism/optimism/op-challenger/game/fault/types"
-	"github.com/ethereum-optimism/optimism/op-service/ioutil"
+	"github.com/DougNorm/optimism/op-challenger/config"
+	"github.com/DougNorm/optimism/op-challenger/game/fault/types"
+	"github.com/DougNorm/optimism/op-service/ioutil"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/log"
 
-	"github.com/ethereum-optimism/optimism/cannon/mipsevm"
+	"github.com/DougNorm/optimism/cannon/mipsevm"
 )
 
 const (

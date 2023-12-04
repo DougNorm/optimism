@@ -5,8 +5,8 @@ import (
 	"encoding/hex"
 	"testing"
 
-	faulttest "github.com/ethereum-optimism/optimism/op-challenger/game/fault/test"
-	"github.com/ethereum-optimism/optimism/op-challenger/game/fault/trace"
+	faulttest "github.com/DougNorm/optimism/op-challenger/game/fault/test"
+	"github.com/DougNorm/optimism/op-challenger/game/fault/trace"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/stretchr/testify/require"
 )

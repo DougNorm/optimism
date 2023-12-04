@@ -12,8 +12,8 @@ import (
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/crypto"
 
-	"github.com/ethereum-optimism/optimism/op-bindings/solc"
-	"github.com/ethereum-optimism/optimism/op-service/eth"
+	"github.com/DougNorm/optimism/op-bindings/solc"
+	"github.com/DougNorm/optimism/op-service/eth"
 )
 
 // EncodeStorageKeyValue encodes the key value pair that is stored in state

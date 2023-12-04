@@ -6,7 +6,7 @@ import (
 
 	"github.com/ethereum/go-ethereum/log"
 
-	"github.com/ethereum-optimism/optimism/op-service/eth"
+	"github.com/DougNorm/optimism/op-service/eth"
 )
 
 var _ NextFrameProvider = &FrameQueue{}

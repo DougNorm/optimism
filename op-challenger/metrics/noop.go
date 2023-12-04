@@ -7,7 +7,7 @@ import (
 	"github.com/ethereum/go-ethereum/ethclient"
 	"github.com/ethereum/go-ethereum/log"
 
-	txmetrics "github.com/ethereum-optimism/optimism/op-service/txmgr/metrics"
+	txmetrics "github.com/DougNorm/optimism/op-service/txmgr/metrics"
 )
 
 type NoopMetricsImpl struct {

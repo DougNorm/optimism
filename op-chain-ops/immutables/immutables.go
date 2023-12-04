@@ -11,9 +11,9 @@ import (
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/core/types"
 
-	"github.com/ethereum-optimism/optimism/op-bindings/bindings"
-	"github.com/ethereum-optimism/optimism/op-bindings/predeploys"
-	"github.com/ethereum-optimism/optimism/op-chain-ops/deployer"
+	"github.com/DougNorm/optimism/op-bindings/bindings"
+	"github.com/DougNorm/optimism/op-bindings/predeploys"
+	"github.com/DougNorm/optimism/op-chain-ops/deployer"
 )
 
 // PredeploysImmutableConfig represents the set of L2 predeploys. It includes all

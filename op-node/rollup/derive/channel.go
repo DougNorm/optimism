@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/ethereum-optimism/optimism/op-service/eth"
+	"github.com/DougNorm/optimism/op-service/eth"
 	"github.com/ethereum/go-ethereum/rlp"
 )
 

@@ -6,10 +6,10 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum-optimism/optimism/op-challenger/game/fault/test"
-	"github.com/ethereum-optimism/optimism/op-challenger/game/fault/trace"
-	"github.com/ethereum-optimism/optimism/op-challenger/game/fault/trace/alphabet"
-	"github.com/ethereum-optimism/optimism/op-challenger/game/fault/types"
+	"github.com/DougNorm/optimism/op-challenger/game/fault/test"
+	"github.com/DougNorm/optimism/op-challenger/game/fault/trace"
+	"github.com/DougNorm/optimism/op-challenger/game/fault/trace/alphabet"
+	"github.com/DougNorm/optimism/op-challenger/game/fault/types"
 	"github.com/stretchr/testify/require"
 )
 

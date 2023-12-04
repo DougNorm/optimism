@@ -6,9 +6,9 @@ import (
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/urfave/cli/v2"
 
-	"github.com/ethereum-optimism/optimism/op-bootnode/bootnode"
-	"github.com/ethereum-optimism/optimism/op-bootnode/flags"
-	oplog "github.com/ethereum-optimism/optimism/op-service/log"
+	"github.com/DougNorm/optimism/op-bootnode/bootnode"
+	"github.com/DougNorm/optimism/op-bootnode/flags"
+	oplog "github.com/DougNorm/optimism/op-service/log"
 )
 
 func main() {

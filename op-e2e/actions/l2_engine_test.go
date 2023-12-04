@@ -4,8 +4,8 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum-optimism/optimism/op-program/client/l2/engineapi"
-	"github.com/ethereum-optimism/optimism/op-program/client/l2/engineapi/test"
+	"github.com/DougNorm/optimism/op-program/client/l2/engineapi"
+	"github.com/DougNorm/optimism/op-program/client/l2/engineapi/test"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/consensus/beacon"
 	"github.com/ethereum/go-ethereum/consensus/ethash"
@@ -19,10 +19,10 @@ import (
 
 	"github.com/ethereum/go-ethereum/log"
 
-	"github.com/ethereum-optimism/optimism/op-e2e/e2eutils"
-	"github.com/ethereum-optimism/optimism/op-service/eth"
-	"github.com/ethereum-optimism/optimism/op-service/sources"
-	"github.com/ethereum-optimism/optimism/op-service/testlog"
+	"github.com/DougNorm/optimism/op-e2e/e2eutils"
+	"github.com/DougNorm/optimism/op-service/eth"
+	"github.com/DougNorm/optimism/op-service/sources"
+	"github.com/DougNorm/optimism/op-service/testlog"
 )
 
 func TestL2EngineAPI(gt *testing.T) {

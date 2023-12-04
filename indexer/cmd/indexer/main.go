@@ -6,8 +6,8 @@ import (
 
 	"github.com/ethereum/go-ethereum/log"
 
-	oplog "github.com/ethereum-optimism/optimism/op-service/log"
-	"github.com/ethereum-optimism/optimism/op-service/opio"
+	oplog "github.com/DougNorm/optimism/op-service/log"
+	"github.com/DougNorm/optimism/op-service/opio"
 )
 
 var (

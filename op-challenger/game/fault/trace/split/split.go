@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum-optimism/optimism/op-challenger/game/fault/trace"
-	"github.com/ethereum-optimism/optimism/op-challenger/game/fault/types"
+	"github.com/DougNorm/optimism/op-challenger/game/fault/trace"
+	"github.com/DougNorm/optimism/op-challenger/game/fault/types"
 )
 
 var (

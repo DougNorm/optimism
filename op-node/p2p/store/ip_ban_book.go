@@ -6,7 +6,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/ethereum-optimism/optimism/op-service/clock"
+	"github.com/DougNorm/optimism/op-service/clock"
 	"github.com/ethereum/go-ethereum/log"
 	ds "github.com/ipfs/go-datastore"
 )

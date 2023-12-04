@@ -5,13 +5,13 @@ import (
 
 	"github.com/urfave/cli/v2"
 
-	"github.com/ethereum-optimism/optimism/op-batcher/compressor"
-	"github.com/ethereum-optimism/optimism/op-batcher/flags"
-	oplog "github.com/ethereum-optimism/optimism/op-service/log"
-	opmetrics "github.com/ethereum-optimism/optimism/op-service/metrics"
-	oppprof "github.com/ethereum-optimism/optimism/op-service/pprof"
-	oprpc "github.com/ethereum-optimism/optimism/op-service/rpc"
-	"github.com/ethereum-optimism/optimism/op-service/txmgr"
+	"github.com/DougNorm/optimism/op-batcher/compressor"
+	"github.com/DougNorm/optimism/op-batcher/flags"
+	oplog "github.com/DougNorm/optimism/op-service/log"
+	opmetrics "github.com/DougNorm/optimism/op-service/metrics"
+	oppprof "github.com/DougNorm/optimism/op-service/pprof"
+	oprpc "github.com/DougNorm/optimism/op-service/rpc"
+	"github.com/DougNorm/optimism/op-service/txmgr"
 )
 
 type CLIConfig struct {
@@ -63,7 +63,7 @@ type CLIConfig struct {
 }
 
 func (c *CLIConfig) Check() error {
-	// TODO(7512): check the sanity of flags loaded directly https://github.com/ethereum-optimism/optimism/issues/7512
+	// TODO(7512): check the sanity of flags loaded directly https://github.com/DougNorm/optimism/issues/7512
 
 	if err := c.MetricsConfig.Check(); err != nil {
 		return err

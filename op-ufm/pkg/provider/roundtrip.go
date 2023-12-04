@@ -5,11 +5,11 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ethereum-optimism/optimism/op-ufm/pkg/metrics"
-	iclients "github.com/ethereum-optimism/optimism/op-ufm/pkg/metrics/clients"
+	"github.com/DougNorm/optimism/op-ufm/pkg/metrics"
+	iclients "github.com/DougNorm/optimism/op-ufm/pkg/metrics/clients"
 	"github.com/ethereum/go-ethereum/core"
 
-	"github.com/ethereum-optimism/optimism/op-service/tls"
+	"github.com/DougNorm/optimism/op-service/tls"
 	"github.com/ethereum/go-ethereum"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/txpool"

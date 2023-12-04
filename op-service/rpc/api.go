@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	oplog "github.com/ethereum-optimism/optimism/op-service/log"
-	"github.com/ethereum-optimism/optimism/op-service/metrics"
+	oplog "github.com/DougNorm/optimism/op-service/log"
+	"github.com/DougNorm/optimism/op-service/metrics"
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/ethereum/go-ethereum/rpc"
 )

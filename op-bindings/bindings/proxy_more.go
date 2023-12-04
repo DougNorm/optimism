@@ -6,7 +6,7 @@ package bindings
 import (
 	"encoding/json"
 
-	"github.com/ethereum-optimism/optimism/op-bindings/solc"
+	"github.com/DougNorm/optimism/op-bindings/solc"
 )
 
 const ProxyStorageLayoutJSON = "{\"storage\":null,\"types\":{}}"

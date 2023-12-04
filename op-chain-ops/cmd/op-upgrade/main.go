@@ -14,12 +14,12 @@ import (
 	"github.com/mattn/go-isatty"
 	"github.com/urfave/cli/v2"
 
-	"github.com/ethereum-optimism/optimism/op-chain-ops/clients"
-	"github.com/ethereum-optimism/optimism/op-chain-ops/genesis"
-	"github.com/ethereum-optimism/optimism/op-chain-ops/safe"
-	"github.com/ethereum-optimism/optimism/op-chain-ops/upgrades"
+	"github.com/DougNorm/optimism/op-chain-ops/clients"
+	"github.com/DougNorm/optimism/op-chain-ops/genesis"
+	"github.com/DougNorm/optimism/op-chain-ops/safe"
+	"github.com/DougNorm/optimism/op-chain-ops/upgrades"
 
-	"github.com/ethereum-optimism/superchain-registry/superchain"
+	"github.com/DougNorm/superchain-registry/superchain"
 )
 
 func main() {

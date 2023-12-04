@@ -7,10 +7,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum-optimism/optimism/op-challenger/game/scheduler"
-	"github.com/ethereum-optimism/optimism/op-challenger/game/types"
-	"github.com/ethereum-optimism/optimism/op-service/clock"
-	"github.com/ethereum-optimism/optimism/op-service/eth"
+	"github.com/DougNorm/optimism/op-challenger/game/scheduler"
+	"github.com/DougNorm/optimism/op-challenger/game/types"
+	"github.com/DougNorm/optimism/op-service/clock"
+	"github.com/DougNorm/optimism/op-service/eth"
 
 	"github.com/ethereum/go-ethereum"
 	"github.com/ethereum/go-ethereum/common"

@@ -13,9 +13,9 @@ import (
 	"github.com/ethereum/go-ethereum/core"
 	"github.com/ethereum/go-ethereum/crypto"
 
-	"github.com/ethereum-optimism/optimism/op-bindings/solc"
-	"github.com/ethereum-optimism/optimism/op-chain-ops/state"
-	"github.com/ethereum-optimism/optimism/op-chain-ops/state/testdata"
+	"github.com/DougNorm/optimism/op-bindings/solc"
+	"github.com/DougNorm/optimism/op-chain-ops/state"
+	"github.com/DougNorm/optimism/op-chain-ops/state/testdata"
 
 	"github.com/stretchr/testify/require"
 )

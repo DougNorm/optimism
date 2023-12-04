@@ -11,8 +11,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/ethereum-optimism/optimism/op-service/testlog"
-	"github.com/ethereum-optimism/optimism/op-service/txmgr/metrics"
+	"github.com/DougNorm/optimism/op-service/testlog"
+	"github.com/DougNorm/optimism/op-service/txmgr/metrics"
 
 	"github.com/ethereum/go-ethereum"
 	"github.com/ethereum/go-ethereum/common"

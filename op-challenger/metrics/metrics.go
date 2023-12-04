@@ -3,15 +3,15 @@ package metrics
 import (
 	"io"
 
-	"github.com/ethereum-optimism/optimism/op-service/sources/caching"
+	"github.com/DougNorm/optimism/op-service/sources/caching"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/ethclient"
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/ethereum-optimism/optimism/op-service/httputil"
-	opmetrics "github.com/ethereum-optimism/optimism/op-service/metrics"
-	txmetrics "github.com/ethereum-optimism/optimism/op-service/txmgr/metrics"
+	"github.com/DougNorm/optimism/op-service/httputil"
+	opmetrics "github.com/DougNorm/optimism/op-service/metrics"
+	txmetrics "github.com/DougNorm/optimism/op-service/txmgr/metrics"
 )
 
 const Namespace = "op_challenger"

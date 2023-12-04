@@ -3,9 +3,9 @@ package registry
 import (
 	"testing"
 
-	"github.com/ethereum-optimism/optimism/op-challenger/game/scheduler"
-	"github.com/ethereum-optimism/optimism/op-challenger/game/scheduler/test"
-	"github.com/ethereum-optimism/optimism/op-challenger/game/types"
+	"github.com/DougNorm/optimism/op-challenger/game/scheduler"
+	"github.com/DougNorm/optimism/op-challenger/game/scheduler/test"
+	"github.com/DougNorm/optimism/op-challenger/game/types"
 	"github.com/stretchr/testify/require"
 )
 

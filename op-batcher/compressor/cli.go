@@ -3,7 +3,7 @@ package compressor
 import (
 	"strings"
 
-	opservice "github.com/ethereum-optimism/optimism/op-service"
+	opservice "github.com/DougNorm/optimism/op-service"
 	"github.com/urfave/cli/v2"
 )
 

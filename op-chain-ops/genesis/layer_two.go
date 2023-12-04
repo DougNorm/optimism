@@ -7,10 +7,10 @@ import (
 	"github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/log"
 
-	"github.com/ethereum-optimism/optimism/op-bindings/predeploys"
-	"github.com/ethereum-optimism/optimism/op-chain-ops/immutables"
-	"github.com/ethereum-optimism/optimism/op-chain-ops/state"
-	"github.com/ethereum-optimism/optimism/op-service/eth"
+	"github.com/DougNorm/optimism/op-bindings/predeploys"
+	"github.com/DougNorm/optimism/op-chain-ops/immutables"
+	"github.com/DougNorm/optimism/op-chain-ops/state"
+	"github.com/DougNorm/optimism/op-service/eth"
 )
 
 // BuildL2Genesis will build the L2 genesis block.

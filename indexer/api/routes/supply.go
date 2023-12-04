@@ -3,7 +3,7 @@ package routes
 import (
 	"net/http"
 
-	"github.com/ethereum-optimism/optimism/indexer/api/models"
+	"github.com/DougNorm/optimism/indexer/api/models"
 )
 
 // SupplyView ... Handles /api/v0/supply GET requests

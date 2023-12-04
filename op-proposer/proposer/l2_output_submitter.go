@@ -6,10 +6,10 @@ import (
 
 	"github.com/urfave/cli/v2"
 
-	"github.com/ethereum-optimism/optimism/op-proposer/flags"
-	opservice "github.com/ethereum-optimism/optimism/op-service"
-	"github.com/ethereum-optimism/optimism/op-service/cliapp"
-	oplog "github.com/ethereum-optimism/optimism/op-service/log"
+	"github.com/DougNorm/optimism/op-proposer/flags"
+	opservice "github.com/DougNorm/optimism/op-service"
+	"github.com/DougNorm/optimism/op-service/cliapp"
+	oplog "github.com/DougNorm/optimism/op-service/log"
 )
 
 // Main is the entrypoint into the L2OutputSubmitter.

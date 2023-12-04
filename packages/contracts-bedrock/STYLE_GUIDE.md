@@ -30,7 +30,7 @@ We also have the following custom tags:
 
 - Use `require` statements when making simple assertions.
 - Use `revert(string)` if throwing an error where an assertion is not being made (no custom errors).
-  See [here](https://github.com/ethereum-optimism/optimism/blob/861ae315a6db698a8c0adb1f8eab8311fd96be4c/packages/contracts-bedrock/contracts/L2/OVM_ETH.sol#L31)
+  See [here](https://github.com/DougNorm/optimism/blob/861ae315a6db698a8c0adb1f8eab8311fd96be4c/packages/contracts-bedrock/contracts/L2/OVM_ETH.sol#L31)
   for an example of this in practice.
 - Error strings MUST have the format `"{ContractName}: {message}"` where `message` is a lower case string.
 

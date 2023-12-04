@@ -7,9 +7,9 @@ import (
 	"io"
 	"math"
 
-	"github.com/ethereum-optimism/optimism/op-batcher/compressor"
-	"github.com/ethereum-optimism/optimism/op-node/rollup"
-	"github.com/ethereum-optimism/optimism/op-node/rollup/derive"
+	"github.com/DougNorm/optimism/op-batcher/compressor"
+	"github.com/DougNorm/optimism/op-node/rollup"
+	"github.com/DougNorm/optimism/op-node/rollup/derive"
 	"github.com/ethereum/go-ethereum/core/types"
 )
 

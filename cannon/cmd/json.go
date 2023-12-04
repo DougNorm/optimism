@@ -7,7 +7,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/ethereum-optimism/optimism/op-service/ioutil"
+	"github.com/DougNorm/optimism/op-service/ioutil"
 )
 
 func loadJSON[X any](inputPath string) (*X, error) {

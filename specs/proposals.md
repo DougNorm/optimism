@@ -30,7 +30,7 @@ construction and verification [is implemented in Cannon][cannon],
 the fault proof game specification and integration of a output-root challenger into the [rollup-node][g-rollup-node]
 are part of later specification milestones.
 
-[cannon]: https://github.com/ethereum-optimism/cannon
+[cannon]: https://github.com/DougNorm/cannon
 
 ## Proposing L2 Output Commitments
 

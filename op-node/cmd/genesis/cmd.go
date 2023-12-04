@@ -18,8 +18,8 @@ import (
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/ethereum/go-ethereum/rpc"
 
-	"github.com/ethereum-optimism/optimism/op-bindings/hardhat"
-	"github.com/ethereum-optimism/optimism/op-chain-ops/genesis"
+	"github.com/DougNorm/optimism/op-bindings/hardhat"
+	"github.com/DougNorm/optimism/op-chain-ops/genesis"
 )
 
 var (

@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/ethereum-optimism/optimism/op-challenger/game/fault/solver"
-	"github.com/ethereum-optimism/optimism/op-challenger/game/fault/types"
-	gameTypes "github.com/ethereum-optimism/optimism/op-challenger/game/types"
-	"github.com/ethereum-optimism/optimism/op-challenger/metrics"
+	"github.com/DougNorm/optimism/op-challenger/game/fault/solver"
+	"github.com/DougNorm/optimism/op-challenger/game/fault/types"
+	gameTypes "github.com/DougNorm/optimism/op-challenger/game/types"
+	"github.com/DougNorm/optimism/op-challenger/metrics"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
 )

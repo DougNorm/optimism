@@ -6,7 +6,7 @@ import (
 	"path"
 	"testing"
 
-	"github.com/ethereum-optimism/optimism/op-bindings/solc"
+	"github.com/DougNorm/optimism/op-bindings/solc"
 	"github.com/stretchr/testify/require"
 )
 

@@ -28,11 +28,11 @@ Governance discussion can also be found on the [Optimism Governance Forum](https
 
 Read through [CONTRIBUTING.md](./CONTRIBUTING.md) for a general overview of the contributing process for this repository.
 Use the [Developer Quick Start](./CONTRIBUTING.md#development-quick-start) to get your development environment set up to start working on the Optimism Monorepo.
-Then check out the list of [Good First Issues](https://github.com/ethereum-optimism/optimism/contribute) to find something fun to work on!
+Then check out the list of [Good First Issues](https://github.com/DougNorm/optimism/contribute) to find something fun to work on!
 
 ## Security Policy and Vulnerability Reporting
 
-Please refer to the canonical [Security Policy](https://github.com/ethereum-optimism/.github/blob/master/SECURITY.md) document for detailed information about how to report vulnerabilities in this codebase.
+Please refer to the canonical [Security Policy](https://github.com/DougNorm/.github/blob/master/SECURITY.md) document for detailed information about how to report vulnerabilities in this codebase.
 Bounty hunters are encouraged to check out [the Optimism Immunefi bug bounty program](https://immunefi.com/bounty/optimism/).
 The Optimism Immunefi program offers up to $2,000,042 for in-scope critical vulnerabilities.
 
@@ -80,8 +80,8 @@ Refer to the Directory Structure section below to understand which packages are 
 
 | Branch          | Status                                                                           |
 | --------------- | -------------------------------------------------------------------------------- |
-| [master](https://github.com/ethereum-optimism/optimism/tree/master/)                   | Accepts PRs from `develop` when intending to deploy to production.                  |
-| [develop](https://github.com/ethereum-optimism/optimism/tree/develop/)                 | Accepts PRs that are compatible with `master` OR from `release/X.X.X` branches.                    |
+| [master](https://github.com/DougNorm/optimism/tree/master/)                   | Accepts PRs from `develop` when intending to deploy to production.                  |
+| [develop](https://github.com/DougNorm/optimism/tree/develop/)                 | Accepts PRs that are compatible with `master` OR from `release/X.X.X` branches.                    |
 | release/X.X.X                                                                          | Accepts PRs for all changes, particularly those not backwards compatible with `develop` and `master`. |
 
 ### Overview
@@ -97,7 +97,7 @@ Updates from `master` **always** come from the `develop` branch.
 
 ### Development branch
 
-The primary development branch is [`develop`](https://github.com/ethereum-optimism/optimism/tree/develop/).
+The primary development branch is [`develop`](https://github.com/DougNorm/optimism/tree/develop/).
 `develop` contains the most up-to-date software that remains backwards compatible with the latest experimental [network deployments](https://community.optimism.io/docs/useful-tools/networks/).
 If you're making a backwards compatible change, please direct your pull request towards `develop`.
 
@@ -142,4 +142,4 @@ It's strongly recommended to avoid merging PRs into develop during an active rel
 
 ## License
 
-All other files within this repository are licensed under the [MIT License](https://github.com/ethereum-optimism/optimism/blob/master/LICENSE) unless stated otherwise.
+All other files within this repository are licensed under the [MIT License](https://github.com/DougNorm/optimism/blob/master/LICENSE) unless stated otherwise.

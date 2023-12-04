@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum-optimism/optimism/indexer/database"
-	"github.com/ethereum-optimism/optimism/op-bindings/bindings"
-	"github.com/ethereum-optimism/optimism/op-e2e/e2eutils/wait"
+	"github.com/DougNorm/optimism/indexer/database"
+	"github.com/DougNorm/optimism/op-bindings/bindings"
+	"github.com/DougNorm/optimism/op-e2e/e2eutils/wait"
 
 	"github.com/ethereum/go-ethereum"
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"

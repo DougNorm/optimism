@@ -10,7 +10,7 @@ import (
 	"syscall"
 
 	"github.com/BurntSushi/toml"
-	"github.com/ethereum-optimism/optimism/proxyd"
+	"github.com/DougNorm/optimism/proxyd"
 	"github.com/ethereum/go-ethereum/log"
 )
 

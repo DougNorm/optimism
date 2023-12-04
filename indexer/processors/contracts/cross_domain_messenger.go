@@ -6,10 +6,10 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 
-	"github.com/ethereum-optimism/optimism/indexer/bigint"
-	"github.com/ethereum-optimism/optimism/indexer/database"
-	"github.com/ethereum-optimism/optimism/op-bindings/bindings"
-	"github.com/ethereum-optimism/optimism/op-chain-ops/crossdomain"
+	"github.com/DougNorm/optimism/indexer/bigint"
+	"github.com/DougNorm/optimism/indexer/database"
+	"github.com/DougNorm/optimism/op-bindings/bindings"
+	"github.com/DougNorm/optimism/op-chain-ops/crossdomain"
 )
 
 type CrossDomainMessengerSentMessageEvent struct {

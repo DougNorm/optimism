@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum-optimism/optimism/indexer/bigint"
+	"github.com/DougNorm/optimism/indexer/bigint"
 	"github.com/ethereum/go-ethereum/core/types"
 )
 

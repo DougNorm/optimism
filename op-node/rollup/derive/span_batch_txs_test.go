@@ -11,7 +11,7 @@ import (
 
 	"github.com/ethereum/go-ethereum/core/types"
 
-	"github.com/ethereum-optimism/optimism/op-service/testutils"
+	"github.com/DougNorm/optimism/op-service/testutils"
 )
 
 func TestSpanBatchTxsContractCreationBits(t *testing.T) {

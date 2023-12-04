@@ -4,7 +4,7 @@ import (
 	"net"
 	"strconv"
 
-	"github.com/ethereum-optimism/optimism/op-service/httputil"
+	"github.com/DougNorm/optimism/op-service/httputil"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 )

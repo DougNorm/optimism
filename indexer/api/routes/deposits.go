@@ -3,9 +3,9 @@ package routes
 import (
 	"net/http"
 
-	"github.com/ethereum-optimism/optimism/indexer/api/models"
+	"github.com/DougNorm/optimism/indexer/api/models"
 
-	"github.com/ethereum-optimism/optimism/indexer/database"
+	"github.com/DougNorm/optimism/indexer/database"
 	"github.com/go-chi/chi/v5"
 )
 

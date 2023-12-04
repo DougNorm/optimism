@@ -1,7 +1,7 @@
 package models
 
 import (
-	"github.com/ethereum-optimism/optimism/indexer/database"
+	"github.com/DougNorm/optimism/indexer/database"
 	"github.com/ethereum/go-ethereum/common"
 )
 

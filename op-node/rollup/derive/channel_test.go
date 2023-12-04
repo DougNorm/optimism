@@ -3,7 +3,7 @@ package derive
 import (
 	"testing"
 
-	"github.com/ethereum-optimism/optimism/op-service/eth"
+	"github.com/DougNorm/optimism/op-service/eth"
 	"github.com/stretchr/testify/require"
 )
 

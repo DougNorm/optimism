@@ -1,7 +1,7 @@
 package metrics
 
 import (
-	"github.com/ethereum-optimism/optimism/op-service/metrics"
+	"github.com/DougNorm/optimism/op-service/metrics"
 	"github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/params"
 

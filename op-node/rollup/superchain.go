@@ -8,8 +8,8 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 
-	"github.com/ethereum-optimism/optimism/op-service/eth"
-	"github.com/ethereum-optimism/superchain-registry/superchain"
+	"github.com/DougNorm/optimism/op-service/eth"
+	"github.com/DougNorm/superchain-registry/superchain"
 )
 
 var OPStackSupport = params.ProtocolVersionV0{Build: [8]byte{}, Major: 5, Minor: 0, Patch: 0, PreRelease: 1}.Encode()

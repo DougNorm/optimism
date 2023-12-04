@@ -3,9 +3,9 @@ package outputs
 import (
 	"context"
 
-	"github.com/ethereum-optimism/optimism/op-challenger/game/fault/contracts"
-	"github.com/ethereum-optimism/optimism/op-challenger/game/fault/types"
-	"github.com/ethereum-optimism/optimism/op-service/sources/caching"
+	"github.com/DougNorm/optimism/op-challenger/game/fault/contracts"
+	"github.com/DougNorm/optimism/op-challenger/game/fault/types"
+	"github.com/DougNorm/optimism/op-service/sources/caching"
 	"github.com/ethereum/go-ethereum/common"
 )
 

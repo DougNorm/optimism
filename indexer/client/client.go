@@ -8,9 +8,9 @@ import (
 
 	"encoding/json"
 
-	"github.com/ethereum-optimism/optimism/indexer/api"
-	"github.com/ethereum-optimism/optimism/indexer/api/models"
-	"github.com/ethereum-optimism/optimism/indexer/node"
+	"github.com/DougNorm/optimism/indexer/api"
+	"github.com/DougNorm/optimism/indexer/api/models"
+	"github.com/DougNorm/optimism/indexer/node"
 	"github.com/ethereum/go-ethereum/common"
 )
 

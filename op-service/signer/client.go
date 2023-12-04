@@ -10,8 +10,8 @@ import (
 	"os"
 	"time"
 
-	optls "github.com/ethereum-optimism/optimism/op-service/tls"
-	"github.com/ethereum-optimism/optimism/op-service/tls/certman"
+	optls "github.com/DougNorm/optimism/op-service/tls"
+	"github.com/DougNorm/optimism/op-service/tls/certman"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/core/types"

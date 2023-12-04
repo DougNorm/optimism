@@ -8,7 +8,7 @@ import (
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ethereum-optimism/optimism/op-bindings/bindings"
+	"github.com/DougNorm/optimism/op-bindings/bindings"
 )
 
 func TestSourcemap(t *testing.T) {

@@ -16,14 +16,14 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/ethereum-optimism/optimism/indexer/config"
-	"github.com/ethereum-optimism/optimism/indexer/database"
-	"github.com/ethereum-optimism/optimism/indexer/etl"
-	"github.com/ethereum-optimism/optimism/indexer/node"
-	"github.com/ethereum-optimism/optimism/indexer/processors"
-	"github.com/ethereum-optimism/optimism/indexer/processors/bridge"
-	"github.com/ethereum-optimism/optimism/op-service/httputil"
-	"github.com/ethereum-optimism/optimism/op-service/metrics"
+	"github.com/DougNorm/optimism/indexer/config"
+	"github.com/DougNorm/optimism/indexer/database"
+	"github.com/DougNorm/optimism/indexer/etl"
+	"github.com/DougNorm/optimism/indexer/node"
+	"github.com/DougNorm/optimism/indexer/processors"
+	"github.com/DougNorm/optimism/indexer/processors/bridge"
+	"github.com/DougNorm/optimism/op-service/httputil"
+	"github.com/DougNorm/optimism/op-service/metrics"
 )
 
 // Indexer contains the necessary resources for

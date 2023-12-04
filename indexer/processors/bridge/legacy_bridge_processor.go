@@ -7,14 +7,14 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
 
-	"github.com/ethereum-optimism/optimism/indexer/bigint"
-	"github.com/ethereum-optimism/optimism/indexer/config"
-	"github.com/ethereum-optimism/optimism/indexer/database"
-	"github.com/ethereum-optimism/optimism/indexer/processors/bridge/ovm1"
-	"github.com/ethereum-optimism/optimism/indexer/processors/contracts"
+	"github.com/DougNorm/optimism/indexer/bigint"
+	"github.com/DougNorm/optimism/indexer/config"
+	"github.com/DougNorm/optimism/indexer/database"
+	"github.com/DougNorm/optimism/indexer/processors/bridge/ovm1"
+	"github.com/DougNorm/optimism/indexer/processors/contracts"
 
-	"github.com/ethereum-optimism/optimism/op-bindings/predeploys"
-	"github.com/ethereum-optimism/optimism/op-chain-ops/crossdomain"
+	"github.com/DougNorm/optimism/op-bindings/predeploys"
+	"github.com/DougNorm/optimism/op-chain-ops/crossdomain"
 )
 
 // Legacy Bridge Initiation

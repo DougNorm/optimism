@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ethereum-optimism/superchain-registry/superchain"
+	"github.com/DougNorm/superchain-registry/superchain"
 
-	"github.com/ethereum-optimism/optimism/op-bindings/solc"
+	"github.com/DougNorm/optimism/op-bindings/solc"
 	"github.com/ethereum/go-ethereum/common"
 )
 

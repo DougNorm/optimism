@@ -8,10 +8,10 @@ import (
 	"github.com/ethereum/go-ethereum/core/vm"
 	"github.com/ethereum/go-ethereum/log"
 
-	"github.com/ethereum-optimism/optimism/op-bindings/bindings"
-	"github.com/ethereum-optimism/optimism/op-chain-ops/immutables"
-	"github.com/ethereum-optimism/optimism/op-chain-ops/state"
-	"github.com/ethereum-optimism/optimism/op-service/eth"
+	"github.com/DougNorm/optimism/op-bindings/bindings"
+	"github.com/DougNorm/optimism/op-chain-ops/immutables"
+	"github.com/DougNorm/optimism/op-chain-ops/state"
+	"github.com/DougNorm/optimism/op-service/eth"
 )
 
 // PrecompileCount represents the number of precompile addresses

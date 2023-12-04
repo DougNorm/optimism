@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ethereum-optimism/optimism/op-challenger/game/fault/types"
+	"github.com/DougNorm/optimism/op-challenger/game/fault/types"
 )
 
 type actionRule func(game types.Game, action types.Action) error

@@ -25,7 +25,7 @@ import (
 	"github.com/xaionaro-go/weightedshuffle"
 	"golang.org/x/sync/semaphore"
 
-	sw "github.com/ethereum-optimism/optimism/proxyd/pkg/avg-sliding-window"
+	sw "github.com/DougNorm/optimism/proxyd/pkg/avg-sliding-window"
 )
 
 const (

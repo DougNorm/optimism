@@ -13,8 +13,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethereum-optimism/optimism/op-challenger/config"
-	oplog "github.com/ethereum-optimism/optimism/op-service/log"
+	"github.com/DougNorm/optimism/op-challenger/config"
+	oplog "github.com/DougNorm/optimism/op-service/log"
 	"github.com/ethereum/go-ethereum/log"
 )
 

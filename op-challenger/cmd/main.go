@@ -8,14 +8,14 @@ import (
 
 	"github.com/ethereum/go-ethereum/log"
 
-	challenger "github.com/ethereum-optimism/optimism/op-challenger"
-	"github.com/ethereum-optimism/optimism/op-challenger/config"
-	"github.com/ethereum-optimism/optimism/op-challenger/flags"
-	"github.com/ethereum-optimism/optimism/op-challenger/version"
-	opservice "github.com/ethereum-optimism/optimism/op-service"
-	"github.com/ethereum-optimism/optimism/op-service/cliapp"
-	oplog "github.com/ethereum-optimism/optimism/op-service/log"
-	"github.com/ethereum-optimism/optimism/op-service/opio"
+	challenger "github.com/DougNorm/optimism/op-challenger"
+	"github.com/DougNorm/optimism/op-challenger/config"
+	"github.com/DougNorm/optimism/op-challenger/flags"
+	"github.com/DougNorm/optimism/op-challenger/version"
+	opservice "github.com/DougNorm/optimism/op-service"
+	"github.com/DougNorm/optimism/op-service/cliapp"
+	oplog "github.com/DougNorm/optimism/op-service/log"
+	"github.com/DougNorm/optimism/op-service/opio"
 )
 
 var (

@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ethereum-optimism/superchain-registry/superchain"
+	"github.com/DougNorm/superchain-registry/superchain"
 
-	"github.com/ethereum-optimism/optimism/op-node/rollup"
+	"github.com/DougNorm/optimism/op-node/rollup"
 )
 
 var Mainnet, Goerli, Sepolia *rollup.Config

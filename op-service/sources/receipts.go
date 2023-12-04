@@ -6,14 +6,14 @@ import (
 	"io"
 	"sync"
 
-	"github.com/ethereum-optimism/optimism/op-service/sources/batching"
+	"github.com/DougNorm/optimism/op-service/sources/batching"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/rpc"
 	"github.com/ethereum/go-ethereum/trie"
 
-	"github.com/ethereum-optimism/optimism/op-service/eth"
+	"github.com/DougNorm/optimism/op-service/eth"
 )
 
 // validateReceipts validates that the receipt contents are valid.

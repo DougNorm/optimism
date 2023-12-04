@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ethereum-optimism/optimism/proxyd"
+	"github.com/DougNorm/optimism/proxyd"
 	"github.com/stretchr/testify/require"
 )
 

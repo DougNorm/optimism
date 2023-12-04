@@ -14,9 +14,9 @@ import (
 	"github.com/ethereum/go-ethereum/ethclient"
 	"github.com/ethereum/go-ethereum/log"
 
-	oplog "github.com/ethereum-optimism/optimism/op-service/log"
-	opmetrics "github.com/ethereum-optimism/optimism/op-service/metrics"
-	"github.com/ethereum-optimism/optimism/op-service/opio"
+	oplog "github.com/DougNorm/optimism/op-service/log"
+	opmetrics "github.com/DougNorm/optimism/op-service/metrics"
+	"github.com/DougNorm/optimism/op-service/opio"
 )
 
 var (

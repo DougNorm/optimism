@@ -401,7 +401,7 @@ Fault Proof VMs:
 - [Cannon]: big-endian 32-bit MIPS proof, by OP Labs, in active development.
 - [Asterisc]: little-endian 64-bit RISC-V proof, by `@protolambda`, in active development.
 
-[Cannon]: https://github.com/ethereum-optimism/cannon
+[Cannon]: https://github.com/DougNorm/cannon
 [Asterisc]: https://github.com/protolambda/asterisc
 
 ## Fault Proof Interactive Dispute Game

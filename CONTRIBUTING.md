@@ -6,13 +6,13 @@
 
 There are plenty of ways to contribute, in particular we appreciate support in the following areas:
 
-- Reporting issues. For security issues see [Security policy](https://github.com/ethereum-optimism/.github/blob/master/SECURITY.md).
-- Fixing and responding to existing issues. You can start off with those tagged ["good first issue"](https://github.com/ethereum-optimism/optimism/contribute) which are meant as introductory issues for external contributors.
-- Improving the [community site](https://community.optimism.io/), [documentation](https://github.com/ethereum-optimism/community-hub) and [tutorials](https://github.com/ethereum-optimism/optimism-tutorial).
+- Reporting issues. For security issues see [Security policy](https://github.com/DougNorm/.github/blob/master/SECURITY.md).
+- Fixing and responding to existing issues. You can start off with those tagged ["good first issue"](https://github.com/DougNorm/optimism/contribute) which are meant as introductory issues for external contributors.
+- Improving the [community site](https://community.optimism.io/), [documentation](https://github.com/DougNorm/community-hub) and [tutorials](https://github.com/DougNorm/optimism-tutorial).
 - Become an "Optimizer" and answer questions in the [Optimism Discord](https://discord.optimism.io).
 - Get involved in the protocol design process by proposing changes or new features or write parts of the spec yourself in the [specs subdirectory](./specs/).
 
-Note that we have a [Code of Conduct](https://github.com/ethereum-optimism/.github/blob/master/CODE_OF_CONDUCT.md), please follow it in all your interactions with the project.
+Note that we have a [Code of Conduct](https://github.com/DougNorm/.github/blob/master/CODE_OF_CONDUCT.md), please follow it in all your interactions with the project.
 
 ## Workflow for Pull Requests
 
@@ -20,7 +20,7 @@ Note that we have a [Code of Conduct](https://github.com/ethereum-optimism/.gith
 
 In general, the smaller the diff the easier it will be for us to review quickly.
 
-In order to contribute, fork the appropriate branch, for non-breaking changes to production that is `develop` and for the next release that is normally `release/X.X.X` branch, see [details about our branching model](https://github.com/ethereum-optimism/optimism/blob/develop/README.md#branching-model-and-releases).
+In order to contribute, fork the appropriate branch, for non-breaking changes to production that is `develop` and for the next release that is normally `release/X.X.X` branch, see [details about our branching model](https://github.com/DougNorm/optimism/blob/develop/README.md#branching-model-and-releases).
 
 Additionally, if you are writing a new feature, please ensure you add appropriate test cases.
 
@@ -203,28 +203,28 @@ The following are a comprehensive list of label categories.
 Labels also provide a versatile filter for finding tickets that need help or are open for assignment.
 This makes them a great tool for contributors!
 
-[area]: https://github.com/ethereum-optimism/optimism/labels?q=a-
-[category]: https://github.com/ethereum-optimism/optimism/labels?q=c-
-[meta]: https://github.com/ethereum-optimism/optimism/labels?q=m-
-[difficulty]: https://github.com/ethereum-optimism/optimism/labels?q=d-
-[status]: https://github.com/ethereum-optimism/optimism/labels?q=s-
+[area]: https://github.com/DougNorm/optimism/labels?q=a-
+[category]: https://github.com/DougNorm/optimism/labels?q=c-
+[meta]: https://github.com/DougNorm/optimism/labels?q=m-
+[difficulty]: https://github.com/DougNorm/optimism/labels?q=d-
+[status]: https://github.com/DougNorm/optimism/labels?q=s-
 
 #### Filtering for Work
 
-To find tickets available for external contribution, take a look at the https://github.com/ethereum-optimism/optimism/labels/M-community label.
+To find tickets available for external contribution, take a look at the https://github.com/DougNorm/optimism/labels/M-community label.
 
-You can filter by the https://github.com/ethereum-optimism/optimism/labels/D-good-first-issue
+You can filter by the https://github.com/DougNorm/optimism/labels/D-good-first-issue
 label to find issues that are intended to be easy to implement or fix.
 
 Also, all labels can be seen by visiting the [labels page][labels]
 
-[labels]: https://github.com/ethereum-optimism/optimism/labels
+[labels]: https://github.com/DougNorm/optimism/labels
 
 #### Modifying Labels
 
 When altering label names or deleting labels there are a few things you must be aware of.
 
 - This may affect the mergify bot's use of labels. See the [mergify config](.github/mergify.yml).
-- If the https://github.com/ethereum-optimism/labels/S-stale label is altered, the [close-stale](.github/workflows/close-stale.yml) workflow should be updated.
-- If the https://github.com/ethereum-optimism/labels/M-dependabot label is altered, the [dependabot config](.github/dependabot.yml) file should be adjusted.
+- If the https://github.com/DougNorm/labels/S-stale label is altered, the [close-stale](.github/workflows/close-stale.yml) workflow should be updated.
+- If the https://github.com/DougNorm/labels/M-dependabot label is altered, the [dependabot config](.github/dependabot.yml) file should be adjusted.
 - Saved label filters for project boards will not automatically update. These should be updated if label names change.

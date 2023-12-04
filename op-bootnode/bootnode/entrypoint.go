@@ -11,15 +11,15 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
 
-	opnode "github.com/ethereum-optimism/optimism/op-node"
-	"github.com/ethereum-optimism/optimism/op-node/metrics"
-	"github.com/ethereum-optimism/optimism/op-node/p2p"
-	p2pcli "github.com/ethereum-optimism/optimism/op-node/p2p/cli"
-	"github.com/ethereum-optimism/optimism/op-node/rollup"
-	"github.com/ethereum-optimism/optimism/op-service/eth"
-	oplog "github.com/ethereum-optimism/optimism/op-service/log"
-	opmetrics "github.com/ethereum-optimism/optimism/op-service/metrics"
-	"github.com/ethereum-optimism/optimism/op-service/opio"
+	opnode "github.com/DougNorm/optimism/op-node"
+	"github.com/DougNorm/optimism/op-node/metrics"
+	"github.com/DougNorm/optimism/op-node/p2p"
+	p2pcli "github.com/DougNorm/optimism/op-node/p2p/cli"
+	"github.com/DougNorm/optimism/op-node/rollup"
+	"github.com/DougNorm/optimism/op-service/eth"
+	oplog "github.com/DougNorm/optimism/op-service/log"
+	opmetrics "github.com/DougNorm/optimism/op-service/metrics"
+	"github.com/DougNorm/optimism/op-service/opio"
 )
 
 type gossipNoop struct{}

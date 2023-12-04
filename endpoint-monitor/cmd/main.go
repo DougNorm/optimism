@@ -3,12 +3,12 @@ package main
 import (
 	"os"
 
-	opservice "github.com/ethereum-optimism/optimism/op-service"
-	oplog "github.com/ethereum-optimism/optimism/op-service/log"
+	opservice "github.com/DougNorm/optimism/op-service"
+	oplog "github.com/DougNorm/optimism/op-service/log"
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/urfave/cli/v2"
 
-	endpointMonitor "github.com/ethereum-optimism/optimism/endpoint-monitor"
+	endpointMonitor "github.com/DougNorm/optimism/endpoint-monitor"
 )
 
 var (

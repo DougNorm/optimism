@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/ethereum-optimism/optimism/cannon/mipsevm"
-	"github.com/ethereum-optimism/optimism/op-service/ioutil"
+	"github.com/DougNorm/optimism/cannon/mipsevm"
+	"github.com/DougNorm/optimism/op-service/ioutil"
 )
 
 func parseState(path string) (*mipsevm.State, error) {

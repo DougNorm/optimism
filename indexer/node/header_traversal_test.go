@@ -4,7 +4,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum-optimism/optimism/indexer/bigint"
+	"github.com/DougNorm/optimism/indexer/bigint"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 

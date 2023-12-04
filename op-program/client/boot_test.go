@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/ethereum-optimism/optimism/op-node/chaincfg"
-	preimage "github.com/ethereum-optimism/optimism/op-preimage"
-	"github.com/ethereum-optimism/optimism/op-program/chainconfig"
+	"github.com/DougNorm/optimism/op-node/chaincfg"
+	preimage "github.com/DougNorm/optimism/op-preimage"
+	"github.com/DougNorm/optimism/op-program/chainconfig"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/stretchr/testify/require"
 )

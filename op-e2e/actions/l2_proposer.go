@@ -17,11 +17,11 @@ import (
 	"github.com/ethereum/go-ethereum/params"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ethereum-optimism/optimism/op-bindings/bindings"
-	"github.com/ethereum-optimism/optimism/op-proposer/metrics"
-	"github.com/ethereum-optimism/optimism/op-proposer/proposer"
-	"github.com/ethereum-optimism/optimism/op-service/sources"
-	"github.com/ethereum-optimism/optimism/op-service/txmgr"
+	"github.com/DougNorm/optimism/op-bindings/bindings"
+	"github.com/DougNorm/optimism/op-proposer/metrics"
+	"github.com/DougNorm/optimism/op-proposer/proposer"
+	"github.com/DougNorm/optimism/op-service/sources"
+	"github.com/DougNorm/optimism/op-service/txmgr"
 )
 
 type ProposerCfg struct {

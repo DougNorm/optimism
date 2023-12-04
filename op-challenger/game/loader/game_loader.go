@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/ethereum-optimism/optimism/op-challenger/game/types"
+	"github.com/DougNorm/optimism/op-challenger/game/types"
 	"github.com/ethereum/go-ethereum/common"
 )
 

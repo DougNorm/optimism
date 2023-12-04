@@ -5,9 +5,9 @@ import (
 	"encoding/json"
 	"math"
 
-	"github.com/ethereum-optimism/optimism/op-node/rollup"
-	preimage "github.com/ethereum-optimism/optimism/op-preimage"
-	"github.com/ethereum-optimism/optimism/op-program/chainconfig"
+	"github.com/DougNorm/optimism/op-node/rollup"
+	preimage "github.com/DougNorm/optimism/op-preimage"
+	"github.com/DougNorm/optimism/op-program/chainconfig"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/params"
 )

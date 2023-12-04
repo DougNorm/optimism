@@ -7,12 +7,12 @@ import (
 	"math"
 	"time"
 
-	"github.com/ethereum-optimism/optimism/op-node/flags"
-	"github.com/ethereum-optimism/optimism/op-node/p2p"
-	"github.com/ethereum-optimism/optimism/op-node/rollup"
-	"github.com/ethereum-optimism/optimism/op-node/rollup/driver"
-	"github.com/ethereum-optimism/optimism/op-node/rollup/sync"
-	oppprof "github.com/ethereum-optimism/optimism/op-service/pprof"
+	"github.com/DougNorm/optimism/op-node/flags"
+	"github.com/DougNorm/optimism/op-node/p2p"
+	"github.com/DougNorm/optimism/op-node/rollup"
+	"github.com/DougNorm/optimism/op-node/rollup/driver"
+	"github.com/DougNorm/optimism/op-node/rollup/sync"
+	oppprof "github.com/DougNorm/optimism/op-service/pprof"
 	"github.com/ethereum/go-ethereum/log"
 )
 

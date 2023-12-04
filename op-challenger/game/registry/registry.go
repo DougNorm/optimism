@@ -4,8 +4,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ethereum-optimism/optimism/op-challenger/game/scheduler"
-	"github.com/ethereum-optimism/optimism/op-challenger/game/types"
+	"github.com/DougNorm/optimism/op-challenger/game/scheduler"
+	"github.com/DougNorm/optimism/op-challenger/game/types"
 )
 
 var (
